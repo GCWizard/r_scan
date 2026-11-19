@@ -5,11 +5,11 @@
 //  Created by 李鹏辉 on 2020/2/24.
 //
 
-#import "RScanCamera.h"
+#import "./include/r_scan/RScanCamera.h"
 #import <AVFoundation/AVFoundation.h>
 #import <CoreMotion/CoreMotion.h>
 #import <libkern/OSAtomic.h>
-#import "RScanResult.h"
+#import "./include/r_scan/RScanResult.h"
 // Mirrors ResolutionPreset in camera.dart
 typedef enum {
     veryLow,

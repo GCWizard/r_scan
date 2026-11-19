@@ -1,7 +1,7 @@
-#import "RScanPlugin.h"
-#import "FlutterRScanView.h"
-#import "RScanResult.h"
-#import "RScanCamera.h"
+#import "./include/r_scan/RScanPlugin.h"
+#import "./include/r_scan/FlutterRScanView.h"
+#import "./include/r_scan/RScanResult.h"
+#import "./include/r_scan/RScanCamera.h"
 #import "ZBarSDK.h"
 #import "ZXingObjC.h"
 @implementation RScanPlugin

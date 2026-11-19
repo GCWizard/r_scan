@@ -5,7 +5,7 @@
 //  Created by 李鹏辉 on 2019/12/28.
 //
 
-#import "RScanResult.h"
+#import "./include/r_scan/RScanResult.h"
 @implementation RScanResult
 
 +(NSDictionary*) toMap:(AVMetadataMachineReadableCodeObject*) obj{

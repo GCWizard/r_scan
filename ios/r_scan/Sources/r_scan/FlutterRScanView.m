@@ -5,8 +5,8 @@
 //  Created by rhymelph on 2019/11/21.
 //
 
-#import "FlutterRScanView.h"
-#import "RScanView.h"
+#import "./include/r_scan/FlutterRScanView.h"
+#import "./include/r_scan/RScanView.h"
 static NSString * scanViewType=@"com.rhyme_lph/r_scan_view";
 
 @implementation FlutterRScanViewFactory{

@@ -5,9 +5,9 @@
 //  Created by 李鹏辉 on 2019/11/23.
 //
 
-#import "RScanView.h"
+#import "./include/r_scan/RScanView.h"
 #import <AVFoundation/AVFoundation.h>
-#import "RScanResult.h"
+#import "./include/r_scan/RScanResult.h"
 @interface RScanView()<AVCaptureMetadataOutputObjectsDelegate>
 
 @property(nonatomic , strong)AVCaptureSession * session;

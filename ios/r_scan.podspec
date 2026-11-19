@@ -12,8 +12,8 @@ A new Flutter project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'r_scan/Sources/r_scan/**/*.{h,m,mm,cpp}'
+  s.public_header_files = 'r_scan/Sources/r_scan/include/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'ATBarSDK','~>1.4.1'
   s.dependency 'ZXingObjC','~>3.6.5'
